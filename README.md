@@ -12,13 +12,7 @@ This is an simple implemention of "single image haze removal using dark channel 
 - eps=0.001
 
 ## Dependencies
-
-- numpy
-- opencv-python
-- skimage
-- Pillow
-- matplotlib
-- numba
+- are in requirements.txt
 
 ## Run
 
@@ -27,18 +21,8 @@ cd python_code
 python haze_removal.py [your image path]
 ```
 
+## removed @jit cause it was causing errors, and slitly modified the code structure
 
-## DEMO
-
-<figure class="half">
-    <img src="demo/hongkong.bmp">
-    <img src="demo/hongkong_rev.jpg">
-</figure>
-
-<figure class="half">
-    <img src="demo/canyon2.bmp">
-    <img src="demo/canyon2_rev.jpg">
-</figure>
 
 
 ## References
